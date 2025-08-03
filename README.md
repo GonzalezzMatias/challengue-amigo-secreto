@@ -1,0 +1,1 @@
+El amigo secreto es una aplicacion que permita a los usuarios ingresar nombres de sus amigos y luego realizar un sorteo aleatorio para saber quien es el amigo secreto.
