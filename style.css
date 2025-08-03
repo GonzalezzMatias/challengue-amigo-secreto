@@ -164,7 +164,6 @@ label {
     padding: 20px;
     border-radius: 10px;
     background-color: var(--light-color);
-    display: none;
     border: 1px solid #e0e0e0;
 }
 

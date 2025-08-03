@@ -18,7 +18,7 @@
                 <label for="friend-name">Digite el nombre de sus amigos:</label>
                 <div class="input-group">
                     <input type="text" id="friend-name" placeholder="Ej: María, Carlos, Luisa...">
-                    <button class="btn">Agregar</button>
+                    <button onclick="agregarAlaLista()" class="btn">Agregar</button>
                 </div>
             </div>
 
@@ -28,15 +28,16 @@
 
             <div class="actions">
                 <button class="btn btn-secondary">Limpiar lista</button>
-                <button class="btn">Sortear amigo</button>
+                <button   onclick="sortearNombre()"  class="btn">Sortear amigo</button>
             </div>
 
-            <div class="result-section">
+            <div  id="container-resultados" class="result-section" hidden>
                 <h2 class="result-title">¡Tu amigo secreto es!</h2>
                 <div class="result-name"></div>
                 <p>¡Prepárate para sorprenderlo!</p>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
