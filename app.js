@@ -16,4 +16,5 @@ function sortearNombre(){
     console.log(amigoSecreto);
     console.log(lista);
     document.getElementById('container-resultados').removeAttribute('hidden');
+    document.getElementById('resultado-nombre').textContent = amigoSecreto;
 }
