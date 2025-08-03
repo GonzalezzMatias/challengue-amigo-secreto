@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Amigo Secreto</h1>
+            <p class="subtitle">Descubre quién será tu amigo secreto</p>
+        </header>
+
+        <div class="content">
+            <div class="input-section">
+                <label for="friend-name">Digite el nombre de sus amigos:</label>
+                <div class="input-group">
+                    <input type="text" id="friend-name" placeholder="Ej: María, Carlos, Luisa...">
+                    <button class="btn">Agregar</button>
+                </div>
+            </div>
+
+            <div class="friends-list">
+                <!-- Los nombres aparecerán aquí dinámicamente -->
+            </div>
+
+            <div class="actions">
+                <button class="btn btn-secondary">Limpiar lista</button>
+                <button class="btn">Sortear amigo</button>
+            </div>
+
+            <div class="result-section">
+                <h2 class="result-title">¡Tu amigo secreto es!</h2>
+                <div class="result-name"></div>
+                <p>¡Prepárate para sorprenderlo!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
