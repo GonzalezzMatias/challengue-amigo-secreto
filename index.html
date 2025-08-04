@@ -22,12 +22,17 @@
                 </div>
             </div>
 
+            <div id="errorCartel" class="cartelError" hidden>
+                <p>No se puede ingresar nombres vacíos</p>
+                <button onclick="intentarNuevamente()">Intentar nuevamente</button>
+            </div>
+
             <div class="friends-list">
                 <!-- Los nombres aparecerán aquí dinámicamente -->
             </div>
 
             <div class="actions">
-                <button class="btn btn-secondary">Jugar nuevamente</button>
+                <button onclick="jugarNuevamente()" class="btn btn-secondary">Jugar nuevamente</button>
                 <button   onclick="sortearNombre()"  class="btn">Sortear amigo</button>
             </div>
 
