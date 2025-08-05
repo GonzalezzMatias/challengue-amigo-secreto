@@ -27,8 +27,17 @@
                 <button onclick="intentarNuevamente()">Intentar nuevamente</button>
             </div>
 
-            <div class="friends-list">
-                <!-- Los nombres aparecerán aquí dinámicamente -->
+
+            <div  id="container-resultados" class="result-section" hidden>
+                <h2 class="result-title">¡Tu amigo secreto es!</h2>
+                <div id="resultado-nombre" class="result-name"></div>
+                <p>¡Prepárate para sorprenderlo!</p>
+            </div>
+            
+            <div  class="friends-list">
+                <ul id="mostrar-nombres" class="mostrar-nombres-list">
+
+                </ul>
             </div>
 
             <div class="actions">
@@ -36,11 +45,6 @@
                 <button   onclick="sortearNombre()"  class="btn">Sortear amigo</button>
             </div>
 
-            <div  id="container-resultados" class="result-section" hidden>
-                <h2 class="result-title">¡Tu amigo secreto es!</h2>
-                <div id="resultado-nombre" class="result-name"></div>
-                <p>¡Prepárate para sorprenderlo!</p>
-            </div>
         </div>
     </div>
     <script src="app.js"></script>

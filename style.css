@@ -143,6 +143,12 @@ label {
     border-left: 4px solid var(--secondary-color);
 }
 
+.mostrar-nombres-list{
+    list-style: none;
+    font-weight: 400;
+    color: var(--dark-color);
+}
+
 .cartelError {
     position: fixed;
     top: 50%;
